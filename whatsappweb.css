@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+.container {
+    height: 100%;
+    display:flex;
+ 
+}
+
+.sidebar-left {
+    
+    overflow: auto;
+    
+    border-right: 1px solid #bbb;
+    background-color: red;
+    width:30%;
+    
+
+}
+.mainc{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.sidebar-left .topbar{
+    height:60px;
+    width:100%;
+    background-color:white;
+    
+    display:flex;
+    
+    position: relative;
+    
+
+}
+.sidebar-left .topbar .profile-pic{
+    width: 15%;
+    height: 60px;
+    margin-top:5px;
+    margin-left: 10px;
+  
+ 
+}
+.sidebar-left .topbar .profile-pic .image{
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+    border-radius: 50%;
+    
+}
+.sidebar-left .searchbar{
+   height:60px;
+    width:100%;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    border:5px solid whitesmoke;
+    
+    
+    
+    
+
+}
+
+.sidebar-left .searchbar input[type=text]{
+    width:95%;
+    height:35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    border-color:lightgray;
+
+
+
+    
+    
+    
+    
+ 
+    
+}
+.sidebar-left .chats{
+    
+width:100;
+background-color:white;
+height:100%;
+/* display: flex; */
+
+}
+.sidebar-left .chats .chat{
+
+    background-color:white;
+    width:100%;
+    height:80px;
+    display:flex;
+    
+
+   
+    
+}
+.chat:hover{
+    transform: scale(0.9);
+    
+    
+}
+.sidebar-left .chats .chat .profile-pic{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-left .chats .chat .profile-pic .image{
+    width: 50px;
+    height: 50px;
+    background: skyblue;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.sidebar-left .chats .chat .name{
+    margin-top:20px;
+    font-size:20px;
+}
+.shahid{
+    position: absolute;
+    margin-left:20px;
+    margin-top: 10px;
+    left:0;
+    color:lightgray;
+}
+
+.top-icon{
+    display: flex;
+    align-self: center;
+    /* justify-self: flex-end; */
+    right: 0;
+    width: 40%;
+    position: absolute;
+    justify-content: space-around;
+    color:silver;
+    font-size:20px;
+}
+.main-part{
+background-color:white;
+height: 100%;
+width: 70%;
+
+padding-top: 1px;
+}
+
+.main-part img{
+
+width:100%;
+height: 100%;
+}
+.image img{
+    background-repeat: no-repeat;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.prof .name{
+    font-weight:10;
+
+}
+
+
+
+
+
